@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("/wallpapersden.com_universe-planet-circle_3840x2160.jpg");
+    background-image: url("./wallpapersden.com_universe-planet-circle_3840x2160.jpg");
     background-size: cover;
     display: flex;
     color: #fff;
