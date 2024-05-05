@@ -3,12 +3,14 @@ const horasEl = document.getElementById('horas');
 const minutosEl = document.getElementById('minutos');
 const segundosEl = document.getElementById('segundos');
 
-const dataContagem = "17 May 2024";
+const dataContagem = "17 May 2024 18:00:00";
+// Thu May 02 2024 17:22:07
 
 function countdown() {
 
     const dataFinal = new Date(dataContagem);
     const dataAtual = new Date();
+    console.log(dataAtual);
 
     const totalSegundo = (dataFinal - dataAtual) / 1000;
 
